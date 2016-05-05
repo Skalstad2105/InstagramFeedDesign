@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -22,10 +23,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="370" id="XKl-RT-Jdr" customClass="FeedTableViewCell" customModule="InstagramFeedDesign" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="370" id="XKl-RT-Jdr" customClass="FeedTableViewCell" customModule="InstagramFeedDesign" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XKl-RT-Jdr" id="DG0-dT-dq8">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="370"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jCm-A1-2o9">
@@ -122,6 +124,14 @@
                                                     <exclude reference="2RK-Yb-pr5"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <exclude reference="eNl-jd-hTd"/>
+                                                    <exclude reference="DIw-nE-4nW"/>
+                                                    <exclude reference="VVC-a6-QVn"/>
+                                                    <exclude reference="g15-2b-b6Y"/>
+                                                    <exclude reference="CWJ-nI-UWw"/>
+                                                    <exclude reference="EEd-su-0Q5"/>
+                                                    <exclude reference="KDy-uu-a81"/>
+                                                    <exclude reference="auu-ZD-syY"/>
                                                     <exclude reference="MNr-Gl-Zue"/>
                                                     <exclude reference="do1-lU-VyZ"/>
                                                     <exclude reference="fbD-C4-92E"/>
@@ -130,14 +140,6 @@
                                                     <exclude reference="WjU-ws-CWk"/>
                                                     <exclude reference="Yi6-Sx-YER"/>
                                                     <exclude reference="bHN-0A-xgi"/>
-                                                    <exclude reference="DIw-nE-4nW"/>
-                                                    <exclude reference="VVC-a6-QVn"/>
-                                                    <exclude reference="g15-2b-b6Y"/>
-                                                    <exclude reference="CWJ-nI-UWw"/>
-                                                    <exclude reference="EEd-su-0Q5"/>
-                                                    <exclude reference="KDy-uu-a81"/>
-                                                    <exclude reference="auu-ZD-syY"/>
-                                                    <exclude reference="eNl-jd-hTd"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -149,6 +151,14 @@
                                                     <include reference="2RK-Yb-pr5"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <include reference="eNl-jd-hTd"/>
+                                                    <include reference="DIw-nE-4nW"/>
+                                                    <include reference="VVC-a6-QVn"/>
+                                                    <include reference="g15-2b-b6Y"/>
+                                                    <include reference="CWJ-nI-UWw"/>
+                                                    <include reference="EEd-su-0Q5"/>
+                                                    <include reference="KDy-uu-a81"/>
+                                                    <include reference="auu-ZD-syY"/>
                                                     <include reference="MNr-Gl-Zue"/>
                                                     <include reference="do1-lU-VyZ"/>
                                                     <include reference="fbD-C4-92E"/>
@@ -157,14 +167,6 @@
                                                     <include reference="WjU-ws-CWk"/>
                                                     <include reference="Yi6-Sx-YER"/>
                                                     <include reference="bHN-0A-xgi"/>
-                                                    <include reference="DIw-nE-4nW"/>
-                                                    <include reference="VVC-a6-QVn"/>
-                                                    <include reference="g15-2b-b6Y"/>
-                                                    <include reference="CWJ-nI-UWw"/>
-                                                    <include reference="EEd-su-0Q5"/>
-                                                    <include reference="KDy-uu-a81"/>
-                                                    <include reference="auu-ZD-syY"/>
-                                                    <include reference="eNl-jd-hTd"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
