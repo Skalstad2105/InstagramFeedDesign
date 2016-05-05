@@ -14,6 +14,7 @@
 		D369ACF31CDB306F00ADF9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D369ACF11CDB306F00ADF9E9 /* LaunchScreen.storyboard */; };
 		D369ACFE1CDB306F00ADF9E9 /* InstagramFeedDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ACFD1CDB306F00ADF9E9 /* InstagramFeedDesignTests.swift */; };
 		D369AD091CDB306F00ADF9E9 /* InstagramFeedDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369AD081CDB306F00ADF9E9 /* InstagramFeedDesignUITests.swift */; };
+		D369AD171CDB31D600ADF9E9 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369AD161CDB31D600ADF9E9 /* FeedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D369AD041CDB306F00ADF9E9 /* InstagramFeedDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramFeedDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D369AD081CDB306F00ADF9E9 /* InstagramFeedDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFeedDesignUITests.swift; sourceTree = "<group>"; };
 		D369AD0A1CDB306F00ADF9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D369AD161CDB31D600ADF9E9 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D369ACE81CDB306F00ADF9E9 /* AppDelegate.swift */,
 				D369ACEA1CDB306F00ADF9E9 /* ViewController.swift */,
+				D369AD161CDB31D600ADF9E9 /* FeedTableViewCell.swift */,
 				D369ACEC1CDB306F00ADF9E9 /* Main.storyboard */,
 				D369ACEF1CDB306F00ADF9E9 /* Assets.xcassets */,
 				D369ACF11CDB306F00ADF9E9 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D369ACEB1CDB306F00ADF9E9 /* ViewController.swift in Sources */,
+				D369AD171CDB31D600ADF9E9 /* FeedTableViewCell.swift in Sources */,
 				D369ACE91CDB306F00ADF9E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
